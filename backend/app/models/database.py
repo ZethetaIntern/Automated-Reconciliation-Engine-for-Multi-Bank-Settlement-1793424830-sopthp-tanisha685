@@ -12,6 +12,8 @@ from sqlalchemy import (
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./reconciliation_engine.db")
+if os.getenv("VERCEL") and DATABASE_URL.startswith("sqlite:///."):
+    DATABASE_URL = "sqlite:////tmp/reconciliation_engine.db"
 
 engine = create_engine(
     DATABASE_URL,

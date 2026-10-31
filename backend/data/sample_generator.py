@@ -14,7 +14,11 @@ from decimal import Decimal
 random.seed(42)
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "generated")
-os.makedirs(DATA_DIR, exist_ok=True)
+try:
+    os.makedirs(DATA_DIR, exist_ok=True)
+except (OSError, PermissionError):
+    DATA_DIR = "/tmp/generated"
+    os.makedirs(DATA_DIR, exist_ok=True)
 
 MERCHANTS = [
     ("MERCH-001", "AMAZON PAY INDIA PVT LTD", "HDFC0001234", "98765432101"),
