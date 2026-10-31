@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  test_runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: py -m pytest backend/tests -v --cov=backend.app --cov-report=term-missing
+    environment:
+      - DATABASE_URL=sqlite:///:memory:
+      - ENVIRONMENT=testing
+      - PYTHONDONTWRITEBYTECODE=1
+    volumes:
+      - .:/app

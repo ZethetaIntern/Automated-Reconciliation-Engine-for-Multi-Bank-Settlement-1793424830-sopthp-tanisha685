@@ -1,0 +1,22 @@
+bank_code: "KOTAK"
+bank_name: "Kotak Mahindra Bank"
+supported_formats: ["CAMT.053", "CSV"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+column_mappings:
+  txn_id: "client_ref"
+  txn_date: "date"
+  amount: "amount"
+  currency: "currency"
+  direction: "cr_dr"
+  counterparty_name: "counterparty"
+  counterparty_account: "account_no"
+  bank_ref: "kmbl_ref"
+  narration: "remarks"
+  settlement_date: "settle_date"
+tolerance_amount: 0.01
+tolerance_fx: 0.015

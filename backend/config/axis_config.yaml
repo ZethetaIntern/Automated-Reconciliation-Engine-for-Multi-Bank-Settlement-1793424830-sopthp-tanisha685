@@ -1,0 +1,25 @@
+bank_code: "AXIS"
+bank_name: "Axis Bank Limited"
+supported_formats: ["MT940", "CSV"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+# Axis splits reference across columns or uses period decimals in MT940
+column_mappings:
+  txn_id: ["axis_batch_ref", "axis_seq_no"]
+  txn_date: "tran_date"
+  amount: "amount_inr"
+  currency: "ccy"
+  direction: "dr_cr_flag"
+  counterparty_name: "bene_name"
+  counterparty_account: "bene_acc_no"
+  bank_ref: "axis_utr"
+  narration: "tran_particulars"
+  settlement_date: "value_date"
+mt940_deviations:
+  decimal_separator: "."
+tolerance_amount: 0.01
+tolerance_fx: 0.015

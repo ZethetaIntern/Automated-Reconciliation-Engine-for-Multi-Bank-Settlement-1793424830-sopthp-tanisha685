@@ -1,0 +1,22 @@
+bank_code: "INDUSIND"
+bank_name: "IndusInd Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+column_mappings:
+  txn_id: "indus_ref"
+  txn_date: "booking_date"
+  amount: "net_amount"
+  currency: "currency"
+  direction: "cr_dr_ind"
+  counterparty_name: "bene_name"
+  counterparty_account: "bene_acct"
+  bank_ref: "utr_number"
+  narration: "narrative"
+  settlement_date: "settlement_date"
+tolerance_amount: 0.01
+tolerance_fx: 0.015

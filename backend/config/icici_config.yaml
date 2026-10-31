@@ -1,0 +1,23 @@
+bank_code: "ICICI"
+bank_name: "ICICI Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+# ICICI uses different column names & positions
+column_mappings:
+  txn_id: "urn_ref"
+  txn_date: "value_date"
+  amount: "settlement_value"
+  currency: "txn_currency"
+  direction: "txn_indicator"
+  counterparty_name: "payee_name"
+  counterparty_account: "payee_account"
+  bank_ref: "icici_ref_number"
+  narration: "description"
+  settlement_date: "posting_date"
+tolerance_amount: 0.01
+tolerance_fx: 0.015

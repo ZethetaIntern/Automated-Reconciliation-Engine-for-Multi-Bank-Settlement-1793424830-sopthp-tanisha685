@@ -1,0 +1,24 @@
+bank_code: "SBI"
+bank_name: "State Bank of India"
+supported_formats: ["MT940", "CSV"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+column_mappings:
+  txn_id: "sbi_journal_no"
+  txn_date: "txn_date"
+  amount: "txn_amount"
+  currency: "currency"
+  direction: "type"
+  counterparty_name: "party_name"
+  counterparty_account: "account"
+  bank_ref: "cbs_ref"
+  narration: "narration"
+  settlement_date: "val_date"
+mt940_deviations:
+  missing_funds_code: true
+tolerance_amount: 0.01
+tolerance_fx: 0.015

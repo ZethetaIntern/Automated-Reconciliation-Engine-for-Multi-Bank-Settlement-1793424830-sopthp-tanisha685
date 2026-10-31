@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./reconciliation_engine.db
+      - ENVIRONMENT=production
+    volumes:
+      - ./data_storage:/app/backend/data/generated
+    restart: unless-stopped

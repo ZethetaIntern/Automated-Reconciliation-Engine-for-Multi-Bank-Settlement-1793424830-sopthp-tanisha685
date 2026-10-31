@@ -1,0 +1,22 @@
+bank_code: "YESBANK"
+bank_name: "Yes Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+column_mappings:
+  txn_id: "ybl_txn_id"
+  txn_date: "txn_datetime"
+  amount: "amount"
+  currency: "curr"
+  direction: "direction"
+  counterparty_name: "beneficiary_name"
+  counterparty_account: "beneficiary_account"
+  bank_ref: "ybl_ref"
+  narration: "description"
+  settlement_date: "value_date"
+tolerance_amount: 0.01
+tolerance_fx: 0.015

@@ -1,0 +1,475 @@
+{
+  "generated_at": "2026-09-30T05:32:49.029236",
+  "total_planted_exceptions": 67,
+  "exceptions": [
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 2,
+      "txn_id": "PB26031500000001",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 32,
+      "txn_id": "PB26031500000031",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 57,
+      "txn_id": "PB26031500000056",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 62,
+      "txn_id": "PB26031500000061",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 92,
+      "txn_id": "PB26031500000091",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 112,
+      "txn_id": "PB26031500000111",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 122,
+      "txn_id": "PB26031500000121",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 152,
+      "txn_id": "PB26031500000151",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 167,
+      "txn_id": "PB26031500000166",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 182,
+      "txn_id": "PB26031500000181",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 212,
+      "txn_id": "PB26031500000211",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 222,
+      "txn_id": "PB26031500000221",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 242,
+      "txn_id": "PB26031500000241",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 272,
+      "txn_id": "PB26031500000271",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 277,
+      "txn_id": "PB26031500000276",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 302,
+      "txn_id": "PB26031500000301",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 332,
+      "txn_id": "PB26031500000331",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 362,
+      "txn_id": "PB26031500000361",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 387,
+      "txn_id": "PB26031500000386",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 392,
+      "txn_id": "PB26031500000391",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 422,
+      "txn_id": "PB26031500000421",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 442,
+      "txn_id": "PB26031500000441",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 452,
+      "txn_id": "PB26031500000451",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 482,
+      "txn_id": "PB26031500000481",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 497,
+      "txn_id": "PB26031500000496",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 512,
+      "txn_id": "PB26031500000511",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 542,
+      "txn_id": "PB26031500000541",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 552,
+      "txn_id": "PB26031500000551",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 572,
+      "txn_id": "PB26031500000571",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 602,
+      "txn_id": "PB26031500000601",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 607,
+      "txn_id": "PB26031500000606",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 632,
+      "txn_id": "PB26031500000631",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 662,
+      "txn_id": "PB26031500000661",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 692,
+      "txn_id": "PB26031500000691",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 717,
+      "txn_id": "PB26031500000716",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 722,
+      "txn_id": "PB26031500000721",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 752,
+      "txn_id": "PB26031500000751",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 772,
+      "txn_id": "PB26031500000771",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 782,
+      "txn_id": "PB26031500000781",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 812,
+      "txn_id": "PB26031500000811",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 827,
+      "txn_id": "PB26031500000826",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 842,
+      "txn_id": "PB26031500000841",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 872,
+      "txn_id": "PB26031500000871",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 882,
+      "txn_id": "PB26031500000881",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 902,
+      "txn_id": "PB26031500000901",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 932,
+      "txn_id": "PB26031500000931",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 937,
+      "txn_id": "PB26031500000936",
+      "category": "DIRECTION_REVERSAL",
+      "expected_resolution": "Escalate to Compliance (30m SLA)"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 962,
+      "txn_id": "PB26031500000961",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "hdfc_settlement_20260315.csv",
+      "line": 992,
+      "txn_id": "PB26031500000991",
+      "category": "AMOUNT_MISMATCH",
+      "expected_resolution": "Review bank charge difference"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 2,
+      "txn_id": "PB260315000010",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 42,
+      "txn_id": "PB260315000010",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 82,
+      "txn_id": "PB260315000010",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 122,
+      "txn_id": "PB260315000011",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 162,
+      "txn_id": "PB260315000011",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 202,
+      "txn_id": "PB260315000012",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 242,
+      "txn_id": "PB260315000012",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 282,
+      "txn_id": "PB260315000012",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 322,
+      "txn_id": "PB260315000013",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 362,
+      "txn_id": "PB260315000013",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 402,
+      "txn_id": "PB260315000014",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 442,
+      "txn_id": "PB260315000014",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 482,
+      "txn_id": "PB260315000014",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 522,
+      "txn_id": "PB260315000015",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 562,
+      "txn_id": "PB260315000015",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 602,
+      "txn_id": "PB260315000016",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 642,
+      "txn_id": "PB260315000016",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    },
+    {
+      "source_file": "icici_settlement_20260315.csv",
+      "line": 682,
+      "txn_id": "PB260315000016",
+      "category": "REFERENCE_TRUNCATED",
+      "expected_resolution": "Prefix auto-rematch"
+    }
+  ]
+}

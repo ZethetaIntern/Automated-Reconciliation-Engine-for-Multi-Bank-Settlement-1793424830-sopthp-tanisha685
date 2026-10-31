@@ -1,0 +1,22 @@
+bank_code: "HDFC"
+bank_name: "HDFC Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+currency: "INR"
+delimiter: ","
+has_header: true
+column_mappings:
+  txn_id: "transaction_id"
+  txn_date: "transaction_date"
+  amount: "net_amount"
+  currency: "currency"
+  direction: "cr_dr"
+  counterparty_name: "merchant_name"
+  counterparty_account: "account_number"
+  bank_ref: "bank_ref_no"
+  narration: "remarks"
+  settlement_date: "settlement_date"
+tolerance_amount: 0.01
+tolerance_fx: 0.015
